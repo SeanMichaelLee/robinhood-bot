@@ -12,6 +12,14 @@ Robinhood is an easy to use platform that offers transactions with zero commissi
 ### ***Configure for Trading***
 One drawback of Robinhood is that low value accounts are blocked from frequent day trading. Robinhood instant and gold accounts are not allowed to make more than 3 day trades in any 5 consecutive bussiness day period. Additionally, your account will be marked as pattern day tradding when making 4 day trades in 5 business days. You can get around these limitations by making your Robinhood account a cash account [learn more here](https://robinhood.com/us/en/support/articles/pattern-day-trading/)
 
+# Azure Bootstrapping
+
+## Create an Azure Account and Subscription
+Create an [Azure Account](https://portal.azure.com/#home) and [Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-subscription).
+
+## Bootstrap Script
+Run the bootstrap.ps1 script in powershell ***as admin*** to initialize the required infra (i.e. resource group, key vault, storage account, and Azure function) in Azure.
+
 # Getting Started with Azure Functions in Python
 
 ## Setup
