@@ -1,5 +1,6 @@
 # Overview
 ---
+Bot that leverages Robinhood APIs to buy/sell stocks
 
 # Robinhood Account
 ### ***Sign up***
